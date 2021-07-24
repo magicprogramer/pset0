@@ -1,0 +1,32 @@
+.links{
+    text-align: right;
+}
+#query{
+    margin-top : 10px;
+    border-radius: 20px;
+    width : 30%;
+}
+#submit-button, #Lucky-button{
+    margin-top: 10px;
+    border-radius: 15%;
+}
+#content{
+    margin-top: 10%;
+}
+body{
+    text-align : left;
+    font-size : 14px;
+    font-family: arial,sans-serif;
+
+}
+#advanced label{
+    text-align : left;
+    margin-left : 10px;
+    padding-top: 10px;
+}
+#advanced input {
+    position : absolute;
+    left : 20%;
+    padding-top: 10px;
+}
+

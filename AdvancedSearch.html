@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel = "stylesheet" href = "style.css">
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body id = "advanced">
+        <div class = "links">
+            <a href = "index.html"> Google Search</a>
+        </div>
+        <h2 style = "color : red;">Advanced Search</h2>
+        
+        <div id = "advanced_query">
+        <form action = "https://google.com/search" method = "get">
+        <label for = "all_these_words">all these words</label>
+        <input type = "text" name = "as_q" id = "all_these_words">
+        <br>
+        <label for = "teqword">this exact word or phrase:</label>
+        <input id = "teqword" type = "text" name = "as_epq">
+        <br>
+        <label for = "any_of_words">any of these words</label>
+        <input type = "text" name = "as_epq" id = "any_of_words">
+        <br>
+        <label for = "none">none of these words:</label>
+        <input type = "text" name = "as_nlo" id = "none">
+        <br>
+        </div>
+        <center><button type = "submit" id = "submit" class = "btn-primary">Advanced</button></center>
+    
+        </form>
+    </body>
+</html>
